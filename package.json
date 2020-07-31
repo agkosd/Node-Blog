@@ -2,6 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "main": "files.js",
+  "engines": {
+    "node": "12.18.3"
+  },
   "directories": {
     "doc": "docs"
   },

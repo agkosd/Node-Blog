@@ -10,6 +10,7 @@ const blogRoutes = require('./routes/blogRoutes.js');
 
 //connect to mongodb cloud server
 const dbURI = 'mongodb+srv://agkosd:test1234@cluster0.arwzt.mongodb.net/sample?retryWrites=true&w=majority';
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
 	.then((result)=>
 		app.listen(8888))
